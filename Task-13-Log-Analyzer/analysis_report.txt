@@ -1,0 +1,15 @@
+Authentication Log Analysis
+Total alerts detected: 2
+
+HIGH - REPEATED_FAILED_LOGINS
+Username: alice
+Source IP: 203.0.113.10
+Time: 2026-10-30 09:04:00
+Details: 5 failed login attempts within 10 minutes.
+
+MEDIUM - SUCCESS_AFTER_REPEATED_FAILURES
+Username: alice
+Source IP: 203.0.113.10
+Time: 2026-10-30 09:05:00
+Details: Successful login after 5 recent failed attempts.
+
